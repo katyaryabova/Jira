@@ -1,12 +1,11 @@
 
-
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Collections;
 import java.util.stream.IntStream;
-import java.util.Arrays;
 
-    public abstract class Jira {
+
+    public class Example {
         public static void main(String args[]) {
             int  myArray[] = {1,2,3};
             System.out.println(Arrays.stream(myArray).sum());
@@ -22,4 +21,5 @@ import java.util.Arrays;
 
 
     }
+
 
